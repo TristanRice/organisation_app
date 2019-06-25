@@ -47,9 +47,8 @@
   font-size: 12px;
 }
 
-.login_form_input_box .selected {
+.login_form_input_box.selected {
   outline: 2px solid #26a69a;
-  color: #26a69a;
 }
 
 .login_form_input_box .invalid {

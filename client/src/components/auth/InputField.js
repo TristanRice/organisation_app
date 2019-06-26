@@ -22,7 +22,8 @@ class InputField extends Component {
       checkTaken: false,
       icon: null,
       isSelected: false,
-      class: "login_form_input_box"
+      class: "login_form_input_box",
+      isValid: true
     };
 
     this.showPassword   =   this.showPassword.bind(this);
@@ -41,7 +42,6 @@ class InputField extends Component {
   }
 
   onChange(e) {
-    console.log(e.target.value);
     this.setState({value: e.target.value});
   }
 

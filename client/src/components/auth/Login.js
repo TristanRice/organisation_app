@@ -63,7 +63,8 @@ class Login extends Component {
           <div className="login_form_input_group">
             <input
               className="login_form_input_box"
-              placeholder="Username"/>
+              placeholder="Username"
+            />
             <button className="login_form_submit_button">aaaa</button>
           </div>
         </div>

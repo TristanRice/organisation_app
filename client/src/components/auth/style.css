@@ -41,14 +41,16 @@
   border: 1px solid #ced4da;
   width: 100%;
   outline: none;
+  border-radius: 3px;
 }
 
 .login_form_input_box::placeholder {
-  font-size: 12px;
+  font-family: Arial;
+  font-size: 16px;
 }
 
 .login_form_input_box.selected {
-  outline: 2px solid #26a69a;
+  outline: 1px solid #26a69a;
 }
 
 .login_form_input_box .invalid {
@@ -64,6 +66,15 @@
 
 .login_form_input_container {
   margin: 10px;
+}
+
+.login_form_header_wrapper {
+  text-align: center;
+}
+
+.login_form_header_logo {
+  width: 100px;
+  height: 100px;
 }
 
 .login_form_header {

@@ -44,6 +44,14 @@
   border-radius: 3px;
 }
 
+.requirement.invalid {
+  color: red;
+}
+
+.requirement.valid {
+  color: green;
+}
+
 .login_form_input_box::placeholder {
   font-family: Arial;
   font-size: 16px;
@@ -53,7 +61,7 @@
   outline: 1px solid #26a69a;
 }
 
-.login_form_input_box .invalid {
+.login_form_input_box.invalid {
 
 }
 

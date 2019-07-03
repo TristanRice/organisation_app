@@ -26,7 +26,7 @@ router.post("/register",
     User.hash_password( );
 
     User.save(function(err) {
-      if (err && err.name=="validationError")
+      if (err && err.name==="validationError")
         return res.json({
           "success": false,
           "errType": "not_unique",

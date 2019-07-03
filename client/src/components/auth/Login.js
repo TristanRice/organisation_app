@@ -13,46 +13,6 @@ class Logo extends Component {
 }
 
 
-class InputField extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      type: this.props.type || "text", //if no type is set just put it to 'text'
-      value: "",
-      isTaken: false
-    }
-
-    this.showPassword = this.showPassword.bind(this);
-    this.hidePassword = this.hidePassword.bind(this);
-    this.onChange     = this.onChange.bind(this);
-    this.onBlur       = this.onBlur.bind(this);
-  }
-
-  showPassword() {
-    this.setState({type: "text"});
-  }
-
-  hidePassword() {
-    this.setState({type: "password"});
-  }
-
-  onChange(e) {
-    this.setState({value: e.target.value});
-  }
-
-  onBlur(e) {
-
-  }
-
-  render() {
-    return (
-      <div>
-        <input type={this.state.type} />
-      </div>
-    )
-  }
-}
 
 class Login extends Component {
   render( ) {
